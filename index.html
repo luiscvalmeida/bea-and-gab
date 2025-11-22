@@ -50,6 +50,11 @@
         <a href="#kids" onclick="toggleMenu()">Kids</a>
         <a href="#dresscode" onclick="toggleMenu()">Dress Code</a>
         <a href="#gifts" onclick="toggleMenu()">Gifts</a>
+        <div class="mobile-lang-switcher">
+            <button onclick="setLanguage('en')" class="active">EN</button>
+            <button onclick="setLanguage('fr')">FR</button>
+            <button onclick="setLanguage('pt')">PT</button>
+        </div>
     </div>
 
     <!-- Section 1: Main -->
@@ -250,8 +255,25 @@
         <img src="assets/divider_2.png" alt="divider" class="divider">
     </div>
 
+    <!-- Section 5: Kids -->
+    <section id="kids" class="section bg-alt">
+        <div class="container text-center">
+            <h2 class="title-font" data-i18n="kids.title">Kids & Babies</h2>
+            <p class="max-w-600" data-i18n="kids.intro">We’re excited to celebrate with all our loved ones — and that
+                includes the little ones! <strong>Kids and babies are more than welcome at our wedding.</strong></p>
+            <p class="max-w-600" data-i18n="kids.note">Please make sure to indicate them in your RSVP, so we can plan
+                accordingly and make the day fun and comfortable for guests of all ages. 💛</p>
+        </div>
+    </section>
+
+    <div class="divider-container">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+    </div>
+
     <!-- Section 4: RSVP -->
-    <section id="rsvp" class="section bg-alt">
+    <section id="rsvp" class="section">
         <div class="container text-center">
             <h2 class="title-font" data-i18n="rsvp.title">RSVP</h2>
             <p data-i18n="rsvp.intro">Please let us know if you can make it!</p>
@@ -269,31 +291,16 @@
         <img src="assets/divider_2.png" alt="divider" class="divider">
     </div>
 
-    <!-- Section 5: Kids -->
-    <section id="kids" class="section">
-        <div class="container text-center">
-            <h2 class="title-font" data-i18n="kids.title">Kids & Babies</h2>
-            <p class="max-w-600" data-i18n="kids.intro">We’re excited to celebrate with all our loved ones — and that
-                includes the little ones! Kids and babies are more than welcome at our wedding.</p>
-            <p class="max-w-600" data-i18n="kids.note">Please make sure to indicate them in your RSVP, so we can plan
-                accordingly and make the day fun and comfortable for guests of all ages. 💛</p>
-        </div>
-    </section>
-
-    <div class="divider-container">
-        <img src="assets/divider_2.png" alt="divider" class="divider">
-        <img src="assets/divider_2.png" alt="divider" class="divider">
-        <img src="assets/divider_2.png" alt="divider" class="divider">
-    </div>
-
 
     <!-- Section 6: Dress Code -->
     <section id="dresscode" class="section bg-alt">
         <div class="container text-center">
             <h2 class="title-font" data-i18n="dresscode.title">Dress Code</h2>
-            <p class="max-w-600" data-i18n="dresscode.intro">Our wedding will be outdoors, so we recommend semi-formal
-                that’s also comfortable — perfect for dancing and enjoying the open-air celebration. Bring your dancing
-                shoes!</p>
+            <p class="max-w-600" data-i18n="dresscode.intro">Our wedding will be <strong>outdoors</strong>, so we
+                recommend <strong>semi-formal</strong> that’s also <strong>comfortable</strong> — perfect for dancing
+                and enjoying the open-air
+                celebration.
+                Bring your dancing shoes!</p>
         </div>
     </section>
 
@@ -318,6 +325,7 @@
 
     <footer>
         <img src="assets/1ba124c4-627c-456e-8188-020fe56ea48d.JPG" alt="Beatriz & Gabriel" class="footer-photo">
+        <img src="assets/flowers.png" alt="Flowers" class="footer-flowers">
     </footer>
 
 </body>

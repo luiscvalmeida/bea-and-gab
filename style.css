@@ -39,11 +39,16 @@ h4 {
 .title-font {
     font-family: var(--font-title);
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 h1 {
     font-size: 5rem;
     margin-bottom: 0.5rem;
+}
+
+h1.title-font {
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -109,8 +114,8 @@ a:hover {
 }
 
 .footer-flowers {
-    max-width: 200px;
-    margin-bottom: 15px;
+    max-width: 50px;
+    margin: 3px 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -123,8 +128,6 @@ a:hover {
     object-fit: cover;
     display: block;
     margin: 0 auto;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
 }
 
 .btn {
@@ -134,7 +137,7 @@ a:hover {
     padding: 10px 20px;
     border-radius: 30px;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 30px;
     border: 1px solid var(--color-main);
     transition: all 0.3s ease;
 }
@@ -256,6 +259,30 @@ a:hover {
     color: var(--color-text);
 }
 
+.mobile-lang-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.mobile-lang-switcher button {
+    background: none;
+    border: 1px solid var(--color-text-light);
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-weight: 600;
+    color: var(--color-text);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.mobile-lang-switcher button.active {
+    color: var(--color-main);
+    border-color: var(--color-main);
+}
+
 /* Sections */
 .section {
     padding: 80px 0;
@@ -274,6 +301,7 @@ a:hover {
 .hero-image-container {
     position: relative;
     display: inline-block;
+    margin-top: -20px;
 }
 
 .hero-image {
@@ -407,7 +435,6 @@ a:hover {
 /* Footer */
 footer {
     text-align: center;
-    padding: 60px 0;
     background-color: var(--color-bg-alt);
     color: var(--color-main);
     font-family: var(--font-title);
@@ -438,6 +465,6 @@ footer {
     }
 
     .section {
-        padding: 60px 0;
+        padding: 90px 0;
     }
 }

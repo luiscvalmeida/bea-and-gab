@@ -104,7 +104,7 @@ const translations = {
 
 function setLanguage(lang) {
     // Update active button
-    document.querySelectorAll('.lang-switcher button').forEach(btn => {
+    document.querySelectorAll('.lang-switcher button, .mobile-lang-switcher button').forEach(btn => {
         btn.classList.remove('active');
         if (btn.textContent.toLowerCase() === lang) {
             btn.classList.add('active');
