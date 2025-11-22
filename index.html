@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz & Gabriel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="lang-en">
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#main" class="nav-logo"><img src="assets/flowers.png" alt="B & G"></a>
+            <ul class="nav-links">
+                <li><a href="#main" data-i18n="nav.home">Home</a></li>
+                <li><a href="#accommodation" data-i18n="nav.accommodation">Accommodation</a></li>
+                <li><a href="#transport" data-i18n="nav.transport">Transport</a></li>
+                <li><a href="#rsvp" data-i18n="nav.rsvp">RSVP</a></li>
+                <li><a href="#kids" data-i18n="nav.kids">Kids</a></li>
+                <li><a href="#dresscode" data-i18n="nav.dresscode">Dress Code</a></li>
+                <li><a href="#gifts" data-i18n="nav.gifts">Gifts</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button onclick="setLanguage('en')" class="active">EN</button>
+                <button onclick="setLanguage('fr')">FR</button>
+                <button onclick="setLanguage('pt')">PT</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#main" onclick="toggleMenu()">Home</a>
+        <a href="#accommodation" onclick="toggleMenu()">Accommodation</a>
+        <a href="#transport" onclick="toggleMenu()">Transport</a>
+        <a href="#rsvp" onclick="toggleMenu()">RSVP</a>
+        <a href="#kids" onclick="toggleMenu()">Kids</a>
+        <a href="#dresscode" onclick="toggleMenu()">Dress Code</a>
+        <a href="#gifts" onclick="toggleMenu()">Gifts</a>
+    </div>
+
+    <!-- Section 1: Main -->
+    <section id="main" class="section">
+        <div class="container text-center">
+            <h1 class="title-font" data-i18n="main.title">Beatriz & Gabriel</h1>
+            <div class="hero-image-container">
+                <img src="assets/main.png" alt="Beatriz and Gabriel" class="hero-image">
+            </div>
+            <p class="intro-text" data-i18n="main.intro">We are so excited to celebrate this special day surrounded by
+                the people we love.</p>
+
+            <div class="location">
+                <h4 data-i18n="main.location_title">Wedding Location</h4>
+                <p class="venue-name"><strong>Quinta de Oleiros</strong></p>
+                <p class="address"><a href="https://maps.app.goo.gl/5t37EwW8zCQLJxFV6" target="_blank">Av. Nova da
+                        Igreja 68, 4625-068 Favões, Portugal</a></p>
+            </div>
+
+            <div class="ceremony-info">
+                <h4 data-i18n="main.ceremony_title">Ceremony Time</h4>
+                <p class="ceremony-time" data-i18n="main.time">The ceremony will begin at <strong>16:00h</strong>,
+                    followed by a cocktail reception, dinner, and party.</p>
+            </div>
+
+            <p class="outro-text" data-i18n="main.outro">Your presence will make our wedding truly unforgettable.</p>
+        </div>
+    </section>
+
+    <div class="divider-container">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+    </div>
+
+    <!-- Section 2: Accommodation -->
+    <section id="accommodation" class="section bg-alt">
+        <div class="container">
+            <h2 class="title-font text-center" data-i18n="accom.title">Accommodation</h2>
+            <p class="text-center max-w-600" data-i18n="accom.intro">We’ve gathered a few suggestions for places to stay
+                near the venue — with options to suit all budgets, from cozy spots for couples to larger accommodations
+                for families and groups.</p>
+            <p class="text-center max-w-600" data-i18n="accom.help">If you have any questions or need help finding the
+                right place, please don’t hesitate to get in touch with us. We’ll be happy to help! 💛</p>
+
+            <div class="accom-grid">
+                <div class="accom-column">
+                    <h3 data-i18n="accom.houses_title">Houses for groups</h3>
+
+                    <div class="accom-item">
+                        <h4>Casa da Eira <a
+                                href="https://www.booking.com/hotel/pt/casa-da-eira-marco-de-canavezes.fr.html?aid=318615&label=Portuguese_PT_ROW_29561930305-6RoJ1bz0TGYVsNLG4aBj_AS634186707736%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi55640620489%3Atidsa-302083110424%3Alp9000433%3Ali%3Adec%3Adm%3Aag29561930305%3Acmp108540505&sid=56a97084a85ef87dc1636487b87150c8&age=0&all_sr_blocks=184546001_204070845_3_1_0&checkin=2026-08-14&checkout=2026-08-16&dest_id=-2168697&dest_type=city&dist=0&group_adults=2&group_children=1&hapos=1&highlighted_blocks=184546001_204070845_3_1_0&hpos=1&matching_block_id=184546001_204070845_3_1_0&no_rooms=1&req_adults=2&req_age=0&req_children=1&room1=A%2CA%2C0&sb_price_type=total&sr_order=popularity&sr_pri_blocks=184546001_204070845_3_1_0__29700&srepoch=1762713288&srpvid=e8a8a19a9cc65f15bcf6dd91cba6c3d7&type=total&ucfs=1&chal_t=1763822195213&force_referer="
+                                target="_blank" class="booking-link">Booking</a></h4>
+                        <ul>
+                            <li>2 Bedrooms</li>
+                            <li>6 min drive from venue</li>
+                            <li>Breakfast included</li>
+                        </ul>
+                    </div>
+
+                    <div class="accom-item">
+                        <h4>Bem viver Country house <a
+                                href="https://www.booking.com/hotel/pt/bem-viver-country-house.fr.html?aid=311089&label=quinta-da-bouca-d-arques-G9Lh3KA2EWlEcbkNXThyEQS161713981904%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-2382347442848%3Akwd-13425302094%3Alp9000433%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf23yREhrOV9DIzdQnby_R8&sid=56a97084a85ef87dc1636487b87150c8&age=0&all_sr_blocks=1060727201_378382595_2_0_0&checkin=2026-08-14&checkout=2026-08-16&dest_id=-2165114&dest_type=city&dist=0&group_adults=2&group_children=1&hapos=1&highlighted_blocks=1060727201_378382595_2_0_0&hpos=1&matching_block_id=1060727201_378382595_2_0_0&no_rooms=1&req_adults=2&req_age=0&req_children=1&room1=A%2CA%2C0&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1060727201_378382595_2_0_0__67628&srepoch=1762713066&srpvid=c7aee96506eb4d68dfbfa43d4671f33e&type=total&ucfs=1&"
+                                target="_blank" class="booking-link">Booking</a></h4>
+                        <ul>
+                            <li>4 bedrooms</li>
+                            <li>3 min from venue</li>
+                        </ul>
+                    </div>
+
+                    <div class="accom-item">
+                        <h4>Miragem do Douro <a
+                                href="https://www.booking.com/hotel/pt/miragem-do-douro.fr.html?aid=311089&label=quinta-da-bouca-d-arques-G9Lh3KA2EWlEcbkNXThyEQS161713981904%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-2382347442848%3Akwd-13425302094%3Alp9000433%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf23yREhrOV9DIzdQnby_R8&sid=56a97084a85ef87dc1636487b87150c8&age=0&checkin=2026-08-14&checkout=2026-08-16&dest_id=6524445&dest_type=hotel&dist=0&group_adults=2&group_children=1&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_age=0&req_children=1&room1=A%2CA%2C0&sb_price_type=total&soh=1&sr_order=popularity&srepoch=1762713150&srpvid=f76c306fdeac2277f24c6db7451868d3&type=total&ucfs=1&"
+                                target="_blank" class="booking-link">Booking</a></h4>
+                        <ul>
+                            <li>10 min drive from venue</li>
+                            <li>River View</li>
+                        </ul>
+                    </div>
+
+                    <div class="accom-item">
+                        <h4>Stone House Entre os Rios <a
+                                href="https://www.booking.com/hotel/pt/stone-house-entre-os-rios.fr.html?aid=311089&label=quinta-da-bouca-d-arques-G9Lh3KA2EWlEcbkNXThyEQS161713981904%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-2382347442848%3Akwd-13425302094%3Alp9000433%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf23yREhrOV9DIzdQnby_R8&sid=92e6a462f744e7d11441141a888c3ccb&age=0&all_sr_blocks=1059279501_378176103_2_0_0&checkin=2026-08-14&checkout=2026-08-17&dest_id=10592795&dest_type=hotel&dist=0&group_adults=2&group_children=1&hapos=1&highlighted_blocks=1059279501_378176103_2_0_0&hpos=1&matching_block_id=1059279501_378176103_2_0_0&no_rooms=1&req_adults=2&req_age=0&req_children=1&room1=A%2CA%2C0&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1059279501_378176103_2_0_0__31050&srepoch=1762713021&srpvid=2adb6f52a65027820a84630ced6c1483&type=total&ucfs=1&"
+                                target="_blank" class="booking-link">Booking</a></h4>
+                        <ul>
+                            <li>2 bedrooms</li>
+                            <li>River view</li>
+                            <li>16 min from venue</li>
+                        </ul>
+                    </div>
+
+                    <div class="accom-item">
+                        <h4>Cancela Velha Guest House <a
+                                href="https://www.booking.com/hotel/pt/cancela-velha-guest-house.fr.html?aid=311089&label=quinta-da-bouca-d-arques-G9Lh3KA2EWlEcbkNXThyEQS161713981904%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-2382347442848%3Akwd-13425302094%3Alp9000433%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf23yREhrOV9DIzdQnby_R8&sid=92e6a462f744e7d11441141a888c3ccb&age=0&all_sr_blocks=1028053001_375549233_3_0_0&checkin=2026-08-14&checkout=2026-08-16&dest_id=10280530&dest_type=hotel&dist=0&group_adults=2&group_children=1&hapos=1&highlighted_blocks=1028053001_375549233_3_0_0&hpos=1&matching_block_id=1028053001_375549233_3_0_0&no_rooms=1&req_adults=2&req_age=0&req_children=1&room1=A%2CA%2C0&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1028053001_375549233_3_0_0__28900&srepoch=1762713115&srpvid=b5673a4574ff0012523ea927fe2bfbb1&type=total&ucfs=1&"
+                                target="_blank" class="booking-link">Booking</a></h4>
+                        <p>(3 bedrooms – 6 people)</p>
+                        <ul>
+                            <li>Marco de Canaveses City center</li>
+                            <li>18 min car</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accom-column">
+                    <h3 data-i18n="accom.hotels_title">Hotels/Guest Houses</h3>
+
+                    <div class="accom-item">
+                        <h4>Canhoto Douro <a
+                                href="https://www.booking.com/hotel/pt/casa-da-eira-sao-lourenco-do-douro.fr.html?aid=311089&label=quinta-da-bouca-d-arques-G9Lh3KA2EWlEcbkNXThyEQS161713981904%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-2382347442848%3Akwd-13425302094%3Alp9000433%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9Yf23yREhrOV9DIzdQnby_R8&sid=56a97084a85ef87dc1636487b87150c8&age=0&all_sr_blocks=1290212902_414180406_2_1_0&checkin=2026-08-14&checkout=2026-08-17&dest_id=12902129&dest_type=hotel&dist=0&group_adults=2&group_children=1&hapos=1&highlighted_blocks=1290212902_414180406_2_1_0&hpos=1&matching_block_id=1290212902_414180406_2_1_0&no_rooms=1&req_adults=2&req_age=0&req_children=1&room1=A%2CA%2C0&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1290212902_414180406_2_1_0__45000&srepoch=1762712984&srpvid=5d3a4720c1187f442cf1d161390b69a9&type=total&ucfs=1&"
+                                target="_blank" class="booking-link">Booking</a></h4>
+                        <ul>
+                            <li>Guest house with 3 bedrooms, available to book separately.</li>
+                            <li>River View</li>
+                            <li>8 min from venue</li>
+                        </ul>
+                    </div>
+
+                    <div class="accom-item">
+                        <h4>Dajas Douro Valley Hotel <a
+                                href="https://www.booking.com/hotel/pt/dajas-douro-valley-suites.fr.html?label=gen173nr-10CAEoggI46AdIM1gEaCeIAQGYATO4AQfIAQ3YAQPoAQH4AQGIAgGoAgG4Aq2aw8gGwAIB0gIkYWE3Nzk5NWUtODEyZS00ODI5LWIxZmEtMGFkYzdmOWM5MjEy2AIB4AIB&aid=304142&ucfs=1&checkin=2026-08-14&checkout=2026-08-16&dest_id=-2175208&dest_type=city&group_adults=2&no_rooms=1&group_children=0&srpvid=ebfb96207dd5b127362c7f406dd8244c&srepoch=1762712797&matching_block_id=1122211001_389243448_2_1_0&atlas_src=sr_iw_title"
+                                target="_blank" class="booking-link">Booking</a></h4>
+                        <ul>
+                            <li>Accommodation of the bride and groom</li>
+                            <li>Douro River view</li>
+                            <li>Breakfast included</li>
+                            <li>Transportation to and from the venue can be arranged by the hotel upon advance request.
+                            </li>
+                            <li>15 min from venue</li>
+                        </ul>
+                        <p class="note" data-i18n="accom.dajas_note">Please contact us if you wish to stay in this
+                            Hotel, indicating which room you would like to book. Rates can be arranged directly with the
+                            hotel manager and may be negotiated depending on the number of guests.</p>
+                    </div>
+
+                    <div class="accom-item">
+                        <h4>Host Wise Solar dos Pisoes <a
+                                href="https://www.airbnb.ca/rooms/1198529379160321603?locale=en&_set_bev_on_new_domain=1762712808_EAZjFhYWEwODQwNm&set_everest_cookie_on_new_domain=1762712808.EAZGZkYWU0NTg3YjkwNT.qpfVgIGlQmjXyWyS9dIvjQIb-VnOlxGjln0tYVuU7U8&source_impression_id=p3_1762712808_P3Wr-SkPnKFEg2B7"
+                                target="_blank" class="booking-link">Airbnb</a></h4>
+                        <ul>
+                            <li>3 apartments, available to book separately.</li>
+                            <li>River view</li>
+                            <li>20 min from venue</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-container">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+    </div>
+
+    <!-- Section 3: Transport -->
+    <section id="transport" class="section">
+        <div class="container">
+            <h2 class="title-font text-center" data-i18n="transport.title">Transport</h2>
+            <p class="text-center max-w-600" data-i18n="transport.intro">If you’ll need transportation from the venue
+                back to your hotel or home, please indicate this in your RSVP. We will arrange two shuttle departures
+                for guests staying within a 20-minute radius of Quinta de Oleiros — one early and one late — depending
+                on the number of people who need transport. This service is provided at no additional cost.</p>
+            <p class="text-center max-w-600" data-i18n="transport.early">The earlier we know who needs transport and
+                where you are staying, the better service we can provide for everyone.</p>
+
+            <div class="info-box">
+                <h4 data-i18n="transport.important_title">Important to note:</h4>
+                <ul>
+                    <li data-i18n="transport.note1">The venue is located in a small town where Uber and other
+                        ride-sharing services are very limited and usually won’t accept short trips, even if scheduled
+                        in advance.</li>
+                    <li data-i18n="transport.note2">Parking: There is a parking lot available at the venue for guests
+                        who are driving.</li>
+                    <li data-i18n="transport.note3">For transportation to the venue, if you’re not driving, we recommend
+                        asking your hotel or host to help arrange a taxi or private transfer in advance.</li>
+                    <li data-i18n="transport.note4">If you drink, don’t drive - Streets can be narrow and dark in these
+                        small towns!</li>
+                    <li data-i18n="transport.note5">For guests staying more than 20 minutes away from Quinta de Oleiros,
+                        please make sure to secure transportation back to your hotel.</li>
+                </ul>
+            </div>
+
+            <div class="map-container" style="margin-top: 40px;">
+                <iframe width="100%" height="300" style="border:0" loading="lazy" allowfullscreen
+                    src="https://maps.google.com/maps?q=Quinta+de+Oleiros,Favoes&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+            <div class="text-center">
+                <a href="https://maps.app.goo.gl/5t37EwW8zCQLJxFV6" target="_blank" class="btn"
+                    data-i18n="main.gmaps_btn">Open in Google Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-container">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+    </div>
+
+    <!-- Section 4: RSVP -->
+    <section id="rsvp" class="section bg-alt">
+        <div class="container text-center">
+            <h2 class="title-font" data-i18n="rsvp.title">RSVP</h2>
+            <p data-i18n="rsvp.intro">Please let us know if you can make it!</p>
+            <!-- Placeholder for 3rd party form -->
+            <div class="rsvp-placeholder">
+                <p>[RSVP Form Placeholder]</p>
+                <button class="btn">Go to RSVP Form</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-container">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+    </div>
+
+    <!-- Section 5: Kids -->
+    <section id="kids" class="section">
+        <div class="container text-center">
+            <h2 class="title-font" data-i18n="kids.title">Kids & Babies</h2>
+            <p class="max-w-600" data-i18n="kids.intro">We’re excited to celebrate with all our loved ones — and that
+                includes the little ones! Kids and babies are more than welcome at our wedding.</p>
+            <p class="max-w-600" data-i18n="kids.note">Please make sure to indicate them in your RSVP, so we can plan
+                accordingly and make the day fun and comfortable for guests of all ages. 💛</p>
+        </div>
+    </section>
+
+    <div class="divider-container">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+    </div>
+
+
+    <!-- Section 6: Dress Code -->
+    <section id="dresscode" class="section bg-alt">
+        <div class="container text-center">
+            <h2 class="title-font" data-i18n="dresscode.title">Dress Code</h2>
+            <p class="max-w-600" data-i18n="dresscode.intro">Our wedding will be outdoors, so we recommend semi-formal
+                that’s also comfortable — perfect for dancing and enjoying the open-air celebration. Bring your dancing
+                shoes!</p>
+        </div>
+    </section>
+
+    <div class="divider-container">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+        <img src="assets/divider_2.png" alt="divider" class="divider">
+    </div>
+
+
+    <!-- Section 7: Gifts -->
+    <section id="gifts" class="section">
+        <div class="container text-center">
+            <h2 class="title-font" data-i18n="gifts.title">Gifts</h2>
+            <p class="max-w-600" data-i18n="gifts.intro">Having you with us on our special day is the greatest gift! 💛
+            </p>
+            <p class="max-w-600" data-i18n="gifts.details">As we start our life together in Portugal, if you’d like to
+                share your best wishes and support, we will have a dedicated space at the venue where you can leave your
+                kind contributions/donations to help us celebrate this new chapter.</p>
+        </div>
+    </section>
+
+    <footer>
+        <img src="assets/1ba124c4-627c-456e-8188-020fe56ea48d.JPG" alt="Beatriz & Gabriel" class="footer-photo">
+    </footer>
+
+</body>
+
+</html>
