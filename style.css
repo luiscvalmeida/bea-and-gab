@@ -424,6 +424,27 @@ a:hover {
     margin-top: 30px;
 }
 
+.ceremony-info>img {
+    margin: -50px 0 -70px 0;
+    width: 650px;
+}
+
+/* Timeline images - language switching */
+.timeline-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: none;
+}
+
+.lang-en .timeline-en,
+.lang-fr .timeline-fr,
+.lang-pt .timeline-pt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .location {
     margin-top: 30px;
 }
@@ -439,6 +460,21 @@ footer {
     color: var(--color-main);
     font-family: var(--font-title);
     font-size: 1.5rem;
+}
+
+.footer-quote {
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+    color: var(--color-main);
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.rsvp-deadline {
+    margin-top: 30px;
+    font-style: italic;
+    color: var(--color-text-light);
 }
 
 /* Responsive */
@@ -464,7 +500,15 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .hero-image {
+        max-height: 250px;
+    }
+
     .section {
         padding: 90px 0;
+    }
+
+    .ceremony-info>img {
+        margin: -40px 0 -60px 0;
     }
 }
