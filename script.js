@@ -307,7 +307,15 @@ function setLanguage(lang) {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[lang] && translations[lang][key]) {
-            element.innerHTML = translations[lang][key];
+            // Special handling for accommodation titles with links
+            if (element.tagName === 'H4' && element.querySelector('a.booking-link, a[href*="airbnb"]')) {
+                const link = element.querySelector('a.booking-link, a[href*="airbnb"]');
+                const linkHtml = link.outerHTML;
+                // Preserve the link while updating the text
+                element.innerHTML = translations[lang][key] + ' ' + linkHtml;
+            } else {
+                element.innerHTML = translations[lang][key];
+            }
         }
     });
 
