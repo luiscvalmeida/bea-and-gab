@@ -287,11 +287,8 @@
         <div class="container text-center">
             <h2 class="title-font" data-i18n="rsvp.title"></h2>
             <p data-i18n="rsvp.intro"></p>
-            <!-- Placeholder for 3rd party form -->
-            <div class="rsvp-placeholder">
-                <p>[RSVP Form Placeholder]</p>
-                <button class="btn">Go to RSVP Form</button>
-            </div>
+            <!-- Tally RSVP Form -->
+            <iframe data-tally-src="https://tally.so/embed/QK1zjA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1080" frameborder="0" marginheight="0" marginwidth="0" title="RSVP Form"></iframe>
         </div>
     </section>
 
@@ -299,6 +296,9 @@
         <p class="footer-quote" data-i18n="footer.quote"></p>
         <img src="assets/flowers.png" alt="Flowers" class="footer-flowers">
     </footer>
+
+    <!-- Tally Form Loader -->
+    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 
 </body>
 
