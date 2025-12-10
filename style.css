@@ -412,10 +412,148 @@ a:hover {
 }
 
 /* RSVP Form */
-#rsvp iframe {
-    max-width: 600px;
+.rsvp-form {
+    max-width: 500px;
     margin: 30px auto 0;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label:not(.radio-label) {
     display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--color-main);
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    background-color: white;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-main);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-description {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* Radio buttons */
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.radio-label:hover {
+    border-color: var(--color-main);
+}
+
+.radio-label input[type="radio"] {
+    margin-right: 8px;
+    accent-color: var(--color-main);
+}
+
+.radio-label input[type="radio"]:checked + span {
+    color: var(--color-main);
+    font-weight: 600;
+}
+
+.radio-label:has(input[type="radio"]:checked) {
+    border-color: var(--color-main);
+    background-color: rgba(63, 81, 11, 0.05);
+}
+
+/* Conditional fields */
+.conditional-field {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.conditional-field.visible {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Submit button */
+.rsvp-form .btn {
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.rsvp-form .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Form messages */
+.form-message {
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-message.success {
+    background-color: rgba(63, 81, 11, 0.1);
+    color: var(--color-main);
+    border: 2px solid var(--color-main);
+}
+
+.form-message.error {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+    border: 2px solid #dc3545;
+}
+
+/* Validation error state */
+.form-group.error input,
+.form-group.error textarea {
+    border-color: #dc3545;
+}
+
+.form-group.error .radio-group .radio-label {
+    border-color: #dc3545;
 }
 
 .ceremony-info {

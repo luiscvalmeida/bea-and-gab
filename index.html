@@ -287,8 +287,98 @@
         <div class="container text-center">
             <h2 class="title-font" data-i18n="rsvp.title"></h2>
             <p data-i18n="rsvp.intro"></p>
-            <!-- Tally RSVP Form -->
-            <iframe data-tally-src="https://tally.so/embed/QK1zjA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1080" frameborder="0" marginheight="0" marginwidth="0" title="RSVP Form"></iframe>
+
+            <!-- Custom RSVP Form -->
+            <form id="rsvp-form" class="rsvp-form">
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="rsvp-name" data-i18n="rsvp.name_label"></label>
+                    <input type="text" id="rsvp-name" name="name" required data-i18n-placeholder="rsvp.name_placeholder">
+                </div>
+
+                <!-- Plus One -->
+                <div class="form-group">
+                    <label for="rsvp-plusone" data-i18n="rsvp.plusone_label"></label>
+                    <input type="text" id="rsvp-plusone" name="plusOne" data-i18n-placeholder="rsvp.plusone_placeholder">
+                </div>
+
+                <!-- Kids -->
+                <div class="form-group">
+                    <label data-i18n="rsvp.kids_label"></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="bringingKids" value="yes" required>
+                            <span data-i18n="rsvp.kids_yes"></span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="bringingKids" value="no">
+                            <span data-i18n="rsvp.kids_no"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Kids Details (conditional) -->
+                <div class="form-group conditional-field" id="kids-details-group">
+                    <label for="rsvp-kids-details" data-i18n="rsvp.kids_details_label"></label>
+                    <input type="text" id="rsvp-kids-details" name="kidsDetails" data-i18n-placeholder="rsvp.kids_details_placeholder">
+                </div>
+
+                <!-- Food Restrictions -->
+                <div class="form-group">
+                    <label data-i18n="rsvp.food_label"></label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="foodRestrictions" value="yes" required>
+                            <span data-i18n="rsvp.food_yes"></span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="foodRestrictions" value="no">
+                            <span data-i18n="rsvp.food_no"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Food Details (conditional) -->
+                <div class="form-group conditional-field" id="food-details-group">
+                    <label for="rsvp-food-details" data-i18n="rsvp.food_details_label"></label>
+                    <input type="text" id="rsvp-food-details" name="foodDetails" data-i18n-placeholder="rsvp.food_details_placeholder">
+                </div>
+
+                <!-- Transport -->
+                <div class="form-group">
+                    <label data-i18n="rsvp.transport_label"></label>
+                    <p class="form-description" data-i18n="rsvp.transport_description"></p>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="needTransport" value="yes" required>
+                            <span data-i18n="rsvp.transport_yes"></span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="needTransport" value="no">
+                            <span data-i18n="rsvp.transport_no"></span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="needTransport" value="maybe">
+                            <span data-i18n="rsvp.transport_maybe"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Transport Details (conditional) -->
+                <div class="form-group conditional-field" id="transport-details-group">
+                    <label for="rsvp-transport-details" data-i18n="rsvp.transport_details_label"></label>
+                    <textarea id="rsvp-transport-details" name="transportDetails" rows="3" data-i18n-placeholder="rsvp.transport_details_placeholder"></textarea>
+                </div>
+
+                <!-- Submit -->
+                <div class="form-group">
+                    <button type="submit" class="btn" id="rsvp-submit" data-i18n="rsvp.submit"></button>
+                </div>
+            </form>
+
+            <!-- Messages (outside form so they show when form is hidden) -->
+            <div id="rsvp-success" class="form-message success" style="display: none;" data-i18n="rsvp.success"></div>
+            <div id="rsvp-error" class="form-message error" style="display: none;" data-i18n="rsvp.error"></div>
         </div>
     </section>
 
@@ -297,8 +387,6 @@
         <img src="assets/flowers.png" alt="Flowers" class="footer-flowers">
     </footer>
 
-    <!-- Tally Form Loader -->
-    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
 
 </body>
 

@@ -29,6 +29,32 @@ const translations = {
         'transport.note5': 'For guests staying more than 20 minutes away from Quinta de Oleiros, please make sure to secure transportation back to your hotel.',
         'rsvp.title': 'RSVP',
         'rsvp.intro': 'Please let us know if you can make it by <strong>March 31st, 2026.</strong>',
+        'rsvp.name_label': 'Name',
+        'rsvp.name_placeholder': 'Your full name',
+        'rsvp.plusone_label': 'Are you bringing a plus one?',
+        'rsvp.plusone_placeholder': 'Name of your plus one (leave empty if none)',
+        'rsvp.kids_label': 'Are you bringing kids/babies?',
+        'rsvp.kids_yes': 'Yes',
+        'rsvp.kids_no': 'No',
+        'rsvp.kids_details_label': 'How many and what ages?',
+        'rsvp.kids_details_placeholder': 'e.g., 2 kids (ages 3 and 7)',
+        'rsvp.food_label': 'Do you have any food restrictions?',
+        'rsvp.food_yes': 'Yes',
+        'rsvp.food_no': 'No',
+        'rsvp.food_details_label': 'If yes, which?',
+        'rsvp.food_details_placeholder': 'Please describe your dietary restrictions',
+        'rsvp.transport_label': 'Will you need transport back to your accommodation?',
+        'rsvp.transport_description': 'We will be able to provide transport to places within a 20 mins range.',
+        'rsvp.transport_yes': 'Yes',
+        'rsvp.transport_no': 'No',
+        'rsvp.transport_maybe': "Don't know yet",
+        'rsvp.transport_details_label': 'If yes, please let us know at what time you would like that (before or after 1am) and where are you staying?',
+        'rsvp.transport_details_placeholder': 'e.g., After 1am, staying at Hotel Dajas',
+        'rsvp.submit': 'Submit',
+        'rsvp.submitting': 'Submitting...',
+        'rsvp.success': 'Thank you! Your RSVP has been received.',
+        'rsvp.error': 'Something went wrong. Please try again or contact us directly.',
+        'rsvp.required': 'This field is required',
         'kids.title': 'Kids & Babies',
         'kids.intro': 'We’re excited to celebrate with all our loved ones — and that includes the little ones! Kids and babies are more than welcome at our wedding.',
         'kids.note': 'Please make sure to indicate them in your RSVP, so we can plan accordingly and make the day fun and comfortable for guests of all ages.',
@@ -68,6 +94,32 @@ const translations = {
         'transport.note5': 'Pour les invités séjournant à plus de 20 minutes de Quinta de Oleiros, veuillez vous assurer d\'organiser votre transport retour vers votre hôtel.',
         'rsvp.title': 'RSVP',
         'rsvp.intro': 'Merci de nous faire savoir si vous pouvez venir avant le <strong>31 mars 2026.</strong>',
+        'rsvp.name_label': 'Nom',
+        'rsvp.name_placeholder': 'Votre nom complet',
+        'rsvp.plusone_label': 'Amenez-vous quelqu\'un?',
+        'rsvp.plusone_placeholder': 'Nom de votre accompagnant(e) (laissez vide si aucun)',
+        'rsvp.kids_label': 'Amenez-vous des enfants/bébés?',
+        'rsvp.kids_yes': 'Oui',
+        'rsvp.kids_no': 'Non',
+        'rsvp.kids_details_label': 'Combien et quel âge?',
+        'rsvp.kids_details_placeholder': 'ex: 2 enfants (3 et 7 ans)',
+        'rsvp.food_label': 'Avez-vous des restrictions alimentaires?',
+        'rsvp.food_yes': 'Oui',
+        'rsvp.food_no': 'Non',
+        'rsvp.food_details_label': 'Si oui, lesquelles?',
+        'rsvp.food_details_placeholder': 'Veuillez décrire vos restrictions alimentaires',
+        'rsvp.transport_label': 'Aurez-vous besoin d\'un transport pour rentrer à votre hébergement?',
+        'rsvp.transport_description': 'Nous pourrons fournir le transport vers des endroits dans un rayon de 20 minutes.',
+        'rsvp.transport_yes': 'Oui',
+        'rsvp.transport_no': 'Non',
+        'rsvp.transport_maybe': 'Je ne sais pas encore',
+        'rsvp.transport_details_label': 'Si oui, veuillez nous indiquer à quelle heure vous souhaiteriez partir (avant ou après 1h du matin) et où vous séjournez?',
+        'rsvp.transport_details_placeholder': 'ex: Après 1h, à l\'hôtel Dajas',
+        'rsvp.submit': 'Envoyer',
+        'rsvp.submitting': 'Envoi en cours...',
+        'rsvp.success': 'Merci! Votre RSVP a bien été reçu.',
+        'rsvp.error': 'Une erreur s\'est produite. Veuillez réessayer ou nous contacter directement.',
+        'rsvp.required': 'Ce champ est obligatoire',
         'kids.title': 'Enfants & Bébés',
         'kids.intro': 'Nous sommes ravis de célébrer avec tous nos proches — et cela inclut les tout-petits! Les enfants et les bébés sont les bienvenus à notre mariage.',
         'kids.note': 'Veuillez vous assurer de les indiquer dans votre RSVP, afin que nous puissions planifier en conséquence et rendre la journée amusante et confortable pour les invités de tous âges.',
@@ -106,6 +158,32 @@ const translations = {
         'transport.note5': 'Para convidados hospedados a mais de 20 minutos da Quinta de Oleiros, por favor garantam transporte de regresso ao vosso hotel.',
         'rsvp.title': 'RSVP',
         'rsvp.intro': 'Por favor, confirmem a vossa presença até <strong>31 de março de 2026.</strong>',
+        'rsvp.name_label': 'Nome',
+        'rsvp.name_placeholder': 'O seu nome completo',
+        'rsvp.plusone_label': 'Vem acompanhado(a)?',
+        'rsvp.plusone_placeholder': 'Nome do(a) acompanhante (deixe vazio se não)',
+        'rsvp.kids_label': 'Traz crianças/bebés?',
+        'rsvp.kids_yes': 'Sim',
+        'rsvp.kids_no': 'Não',
+        'rsvp.kids_details_label': 'Quantos e que idades?',
+        'rsvp.kids_details_placeholder': 'ex: 2 crianças (3 e 7 anos)',
+        'rsvp.food_label': 'Tem alguma restrição alimentar?',
+        'rsvp.food_yes': 'Sim',
+        'rsvp.food_no': 'Não',
+        'rsvp.food_details_label': 'Se sim, quais?',
+        'rsvp.food_details_placeholder': 'Por favor descreva as suas restrições alimentares',
+        'rsvp.transport_label': 'Vai precisar de transporte de regresso ao alojamento?',
+        'rsvp.transport_description': 'Poderemos fornecer transporte para locais num raio de 20 minutos.',
+        'rsvp.transport_yes': 'Sim',
+        'rsvp.transport_no': 'Não',
+        'rsvp.transport_maybe': 'Ainda não sei',
+        'rsvp.transport_details_label': 'Se sim, por favor indique a que horas gostaria (antes ou depois da 1h da manhã) e onde está hospedado?',
+        'rsvp.transport_details_placeholder': 'ex: Depois da 1h, no Hotel Dajas',
+        'rsvp.submit': 'Enviar',
+        'rsvp.submitting': 'A enviar...',
+        'rsvp.success': 'Obrigado! A sua confirmação foi recebida.',
+        'rsvp.error': 'Ocorreu um erro. Por favor tente novamente ou contacte-nos diretamente.',
+        'rsvp.required': 'Este campo é obrigatório',
         'kids.title': 'Crianças & Bebés',
         'kids.intro': 'Estamos animados para celebrar com todos os nossos amigos e família — e isso inclui os mais pequenos! Crianças e bebés são muito bem-vindos ao nosso casamento.',
         'kids.note': 'Por favor, certifiquem-se de indicá-los no vosso RSVP, para que possamos planear de acordo e tornar o dia divertido e confortável para convidados de todas as idades.',
@@ -134,6 +212,14 @@ function setLanguage(lang) {
         }
     });
 
+    // Update placeholders
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-i18n-placeholder');
+        if (translations[lang] && translations[lang][key]) {
+            element.placeholder = translations[lang][key];
+        }
+    });
+
     // Update body class
     document.body.className = `lang-${lang}`;
 }
@@ -155,3 +241,116 @@ document.querySelectorAll('.mobile-menu a').forEach(link => {
         document.querySelector('.mobile-menu').classList.remove('active');
     });
 });
+
+// RSVP Form Handling
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzLr1TSqLQRAQNUf3pP-NvyUnwzlMqlQXmFGqx0ZwnHw5DNQwnKOwPy77VDydufPWVg/exec';
+const RSVP_STORAGE_KEY = 'rsvp_submitted';
+
+function initRSVPForm() {
+    const form = document.getElementById('rsvp-form');
+    if (!form) return;
+
+    const successMsg = document.getElementById('rsvp-success');
+
+    // Check if already submitted
+    if (localStorage.getItem(RSVP_STORAGE_KEY)) {
+        form.style.display = 'none';
+        successMsg.style.display = 'block';
+        return;
+    }
+
+    // Conditional field visibility
+    const kidsRadios = document.querySelectorAll('input[name="bringingKids"]');
+    const kidsDetailsGroup = document.getElementById('kids-details-group');
+
+    const foodRadios = document.querySelectorAll('input[name="foodRestrictions"]');
+    const foodDetailsGroup = document.getElementById('food-details-group');
+
+    const transportRadios = document.querySelectorAll('input[name="needTransport"]');
+    const transportDetailsGroup = document.getElementById('transport-details-group');
+
+    kidsRadios.forEach(radio => {
+        radio.addEventListener('change', () => {
+            kidsDetailsGroup.classList.toggle('visible', radio.value === 'yes' && radio.checked);
+        });
+    });
+
+    foodRadios.forEach(radio => {
+        radio.addEventListener('change', () => {
+            foodDetailsGroup.classList.toggle('visible', radio.value === 'yes' && radio.checked);
+        });
+    });
+
+    transportRadios.forEach(radio => {
+        radio.addEventListener('change', () => {
+            transportDetailsGroup.classList.toggle('visible', radio.value === 'yes' && radio.checked);
+        });
+    });
+
+    // Form submission
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const submitBtn = document.getElementById('rsvp-submit');
+        const successMsg = document.getElementById('rsvp-success');
+        const errorMsg = document.getElementById('rsvp-error');
+
+        // Get current language for button text
+        const currentLang = document.body.className.replace('lang-', '') || 'en';
+        const submittingText = translations[currentLang]['rsvp.submitting'];
+        const submitText = translations[currentLang]['rsvp.submit'];
+
+        // Disable button and show loading state
+        submitBtn.disabled = true;
+        submitBtn.textContent = submittingText;
+        successMsg.style.display = 'none';
+        errorMsg.style.display = 'none';
+
+        // Collect form data
+        const formData = {
+            name: form.querySelector('[name="name"]').value,
+            plusOne: form.querySelector('[name="plusOne"]').value,
+            bringingKids: form.querySelector('[name="bringingKids"]:checked')?.value || '',
+            kidsDetails: form.querySelector('[name="kidsDetails"]').value,
+            foodRestrictions: form.querySelector('[name="foodRestrictions"]:checked')?.value || '',
+            foodDetails: form.querySelector('[name="foodDetails"]').value,
+            needTransport: form.querySelector('[name="needTransport"]:checked')?.value || '',
+            transportDetails: form.querySelector('[name="transportDetails"]').value,
+            language: currentLang,
+            submittedAt: new Date().toISOString()
+        };
+
+        try {
+            const response = await fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+
+            // With no-cors mode, we can't read the response, so we assume success
+            localStorage.setItem(RSVP_STORAGE_KEY, JSON.stringify({
+                name: formData.name,
+                submittedAt: formData.submittedAt
+            }));
+
+            form.style.display = 'none';
+            successMsg.style.display = 'block';
+
+            // Scroll to success message
+            successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        } catch (error) {
+            console.error('Form submission error:', error);
+            errorMsg.style.display = 'block';
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = submitText;
+        }
+    });
+}
+
+// Initialize form when DOM is ready
+document.addEventListener('DOMContentLoaded', initRSVPForm);
