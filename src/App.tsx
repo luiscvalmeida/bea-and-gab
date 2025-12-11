@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyles } from './styles/GlobalStyles';
@@ -13,6 +14,18 @@ import { GiftsSection } from './components/sections/GiftsSection';
 import { RSVPSection } from './components/sections/RSVPSection';
 
 function App() {
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
