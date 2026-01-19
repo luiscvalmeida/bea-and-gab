@@ -91,16 +91,6 @@ interface Accommodation {
 
 const housesData: Accommodation[] = [
   {
-    titleKey: 'accom.casaDaEiraTitle',
-    url: 'https://www.booking.com/hotel/pt/casa-da-eira-marco-de-canavezes.fr.html',
-    linkText: 'Booking',
-    details: [
-      'accom.casaDaEiraBedrooms',
-      'accom.casaDaEiraDistance',
-      'accom.casaDaEiraBreakfast',
-    ],
-  },
-  {
     titleKey: 'accom.bemViverTitle',
     url: 'https://www.booking.com/hotel/pt/bem-viver-country-house.fr.html',
     linkText: 'Booking',
@@ -131,6 +121,12 @@ const housesData: Accommodation[] = [
       'accom.cancelaVelhaLocation',
       'accom.cancelaVelhaDistance',
     ],
+  },
+  {
+    titleKey: 'accom.natureStoneTitle',
+    url: 'https://www.booking.com/hotel/pt/nature-stone-and-villas.fr.html?label=gen173bo-10CAsouwFCH2Nhc2EtZGEtZWlyYS1tYXJjby1kZS1jYW5hdmV6ZXNIDVgDaCeIAQGYATO4AQfIAQ3YAQPoAQH4AQGIAgGYAgKoAgG4ApyLsMsGwAIB0gIkMzVhY2Y5YWMtMjNkZC00MDYyLTkxNzYtMzAzM2JkNDQ5MDM12AIB4AIB&aid=304142&ucfs=1&checkin=2026-08-14&checkout=2026-08-16&dest_id=-2168697&dest_type=city&group_adults=2&no_rooms=1&group_children=1&age=0&req_age=0&nflt=oos%3D1&srpvid=9fc29a93506c02f4&srepoch=1768687168&matching_block_id=1302692003_403138735_4_0_0&atlas_src=sr_iw_title#',
+    linkText: 'Booking',
+    details: ['accom.natureStoneBedrooms', 'accom.natureStoneDistance'],
   },
 ];
 
@@ -167,6 +163,18 @@ const hotelsData: Accommodation[] = [
       'accom.hostWiseView',
       'accom.hostWiseDistance',
     ],
+  },
+  {
+    titleKey: 'accom.villaSeteTitle',
+    url: 'https://www.booking.com/hotel/pt/quinta-de-villasete.fr.html?label=gen173bo-10CAsouwFCH2Nhc2EtZGEtZWlyYS1tYXJjby1kZS1jYW5hdmV6ZXNIDVgDaCeIAQGYATO4AQfIAQ3YAQPoAQH4AQGIAgGYAgKoAgG4ApyLsMsGwAIB0gIkMzVhY2Y5YWMtMjNkZC00MDYyLTkxNzYtMzAzM2JkNDQ5MDM12AIB4AIB&aid=304142&ucfs=1&dest_id=-2168697&dest_type=city&group_adults=8&no_rooms=4&group_children=0&nflt=oos%3D1&srpvid=9fc29a93506c02f4&srepoch=1768687498&matching_block_id=143797409_217491613_2_42_0&atlas_src=sr_iw_title&checkin=2026-08-14&checkout=2026-08-16&req_adults=8&req_children=0',
+    linkText: 'Booking',
+    details: ['accom.villaSeteDistance'],
+  },
+  {
+    titleKey: 'accom.castroPayvaTitle',
+    url: 'https://www.booking.com/hotel/pt/crasto-payva-douro-nature.fr.html?aid=304142&label=gen173bo-10CAsouwFCH2Nhc2EtZGEtZWlyYS1tYXJjby1kZS1jYW5hdmV6ZXNIDVgDaCeIAQGYATO4AQfIAQ3YAQPoAQH4AQGIAgGYAgKoAgG4ApyLsMsGwAIB0gIkMzVhY2Y5YWMtMjNkZC00MDYyLTkxNzYtMzAzM2JkNDQ5MDM12AIB4AIB&sid=56a97084a85ef87dc1636487b87150c8&age=0&all_sr_blocks=894222501_359824755_2_1_0%2C894222502_377398803_2_1_0%2C894222504_377398803_2_1_0&checkin=2026-08-14&checkout=2026-08-16&dest_id=-2157964&dest_type=city&dist=0&group_adults=6&group_children=1&hapos=5&highlighted_blocks=894222501_359824755_2_1_0%2C894222502_377398803_2_1_0%2C894222504_377398803_2_1_0&hpos=5&matching_block_id=894222501_359824755_2_1_0&no_rooms=3&req_adults=6&req_age=0&req_children=1&room1=A%2CA&room2=A%2CA&room3=A%2CA%2C0&sb_price_type=total&sr_order=popularity&sr_pri_blocks=894222501_359824755_2_1_0__24300%2C894222502_377398803_2_1_0__25200%2C894222504_377398803_2_1_0__28000&srepoch=1768687804&srpvid=9a3a9bd914e30007&type=total&ucfs=1',
+    linkText: 'Booking',
+    details: ['accom.castroPayvaDistance'],
   },
 ];
 

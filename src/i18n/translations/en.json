@@ -54,7 +54,14 @@
     "hostWiseTitle": "Host Wise Solar dos Pisoes",
     "hostWiseDescription": "3 apartments, available to book separately.",
     "hostWiseView": "River view",
-    "hostWiseDistance": "20 min from venue"
+    "hostWiseDistance": "20 min from venue",
+    "natureStoneTitle": "Nature Stone and Villas",
+    "natureStoneBedrooms": "4 Villas (from 4 to 8 people)",
+    "natureStoneDistance": "6 min drive from venue",
+    "villaSeteTitle": "Quinta de VillaSete",
+    "villaSeteDistance": "14 min drive from venue",
+    "castroPayvaTitle": "CASTRO PAYVA Douro Nature",
+    "castroPayvaDistance": "21 min drive from venue"
   },
   "transport": {
     "title": "Transport",
