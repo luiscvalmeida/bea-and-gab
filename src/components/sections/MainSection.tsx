@@ -34,13 +34,8 @@ const CeremonyInfo = styled.div`
   margin-top: 30px;
 
   img {
-    margin: -50px 0 -70px 0;
-    width: 650px;
-    max-width: 100%;
-    height: auto;
-
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-      margin: -40px 0 -60px 0;
+      width: 100%;
     }
   }
 `;
@@ -57,9 +52,9 @@ const MAIN_IMAGE_URL =
   'https://res.cloudinary.com/douriists/image/upload/w_800,f_auto,q_auto/main_uocu12.png';
 
 const TIMELINE_URLS: Record<string, string> = {
-  en: 'https://res.cloudinary.com/douriists/image/upload/w_800,f_auto,q_auto/timeline_en_viqsop.png',
-  fr: 'https://res.cloudinary.com/douriists/image/upload/w_800,f_auto,q_auto/timeline_fr_xcnosb.png',
-  pt: 'https://res.cloudinary.com/douriists/image/upload/w_800,f_auto,q_auto/timeline_pt_i2ajau.png',
+  en: 'https://res.cloudinary.com/douriists/image/upload/w_800,f_auto,q_auto,e_trim/timeline_en_k4hdea.png',
+  fr: 'https://res.cloudinary.com/douriists/image/upload/w_800,f_auto,q_auto,e_trim/timeline_fr_nnm4x6.png',
+  pt: 'https://res.cloudinary.com/douriists/image/upload/w_800,f_auto,q_auto,e_trim/timeline_pt_org72a.png',
 };
 
 const GOOGLE_MAPS_URL = 'https://maps.app.goo.gl/5t37EwW8zCQLJxFV6';
